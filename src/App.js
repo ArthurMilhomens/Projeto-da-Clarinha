@@ -1,8 +1,11 @@
 import React from 'react';
+import Table from './Components/Table'
 
 function App() {
   return (
-    <div></div>
+    <div>
+      <Table />
+    </div>
   );
 }
 
