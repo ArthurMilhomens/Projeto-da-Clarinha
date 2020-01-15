@@ -10,7 +10,6 @@ export default function Table() {
     ]   
     
     const usersInfo = users.map(item => {
-        container[item.name] = item.idade, item.peso, item.sexo;
         console.log(item.idade);
     })
     
