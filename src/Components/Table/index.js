@@ -9,17 +9,22 @@ export default function Table() {
         { name: "Clarinha", idade: 60, peso:"55kg", sexo: "Feminazi"},
     ]   
     
-    const usersInfo = users.map(item => {
-        container[item.name] = item.idade, item.peso, item.sexo;
-        console.log(item.idade);
-    })
+    // const usersInfo = users.map(item => {
+    //     console.log(item.idade);
+    // })
     
     
-    
+    function usersInfo(){
+        users.map(item => {
+            console.log(item.name, item.idade, item.peso, item.sexo)
+        })
+    };
 
-//   return (
-//       <Container>
+    usersInfo()
 
-//       </Container>
-//   );
+  return (
+      <Container>
+
+      </Container>
+  );
 }
